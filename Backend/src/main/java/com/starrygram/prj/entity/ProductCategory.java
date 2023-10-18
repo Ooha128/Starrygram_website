@@ -1,5 +1,9 @@
 package com.starrygram.prj.entity;
 
-public class ProductCategory {
+public enum ProductCategory {
+	KEYCHAINS,
+	PHOTOFRAMES,
+	MUG,
+	COASTERS
 
 }

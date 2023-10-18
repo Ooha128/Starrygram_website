@@ -1,5 +1,6 @@
 package com.starrygram.prj.entity;
 
-public class Invoice {
-
+public enum Role {
+	ADMIN,
+	USER
 }
