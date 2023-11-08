@@ -22,7 +22,7 @@ public class AuthenticationService {
 	private CustomerDao customerDao;
 	
 	public JwtAuthenticationResponse signup(SignUpRequest request) {
-		Customer customer = Customer.builder().email(request.getEmail());
+		Customer customer = Customer.builder().email(request.getEmail()).build();
 	}
 	
 	public JwtAuthenticationResponse signin(SignInRequest request) {
